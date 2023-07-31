@@ -1,0 +1,46 @@
+// {
+//     // 使用 IntelliSense 了解相关属性。 
+//     // 悬停以查看现有属性的描述。
+//     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "(gdb) 启动",
+//             "type": "cppdbg",
+//             "request": "launch",
+//             "program": "${workspaceFolder}/build/ARM/gem5.debug",
+//             "args": ["configs/example/se.py",
+// 					"--cpu-type",
+// 					"DerivO3CPU",
+// 					"--cmd=tests/test-progs/hello/bin/arm/linux/hello",
+// 					"--l1d_size=64kB",
+// 					"--l1i_size=16kB",
+// 					"--l2_size=256kB",
+// 					"--l2_size=1MB",
+// 					"--caches"],
+//             "stopAtEntry": false,
+//             "cwd": "${workspaceFolder}",
+//             "environment": [],
+//             "externalConsole": false,
+//             "MIMode": "gdb",
+//             "miDebuggerPath": "/usr/bin/gdb",
+//             "setupCommands": [
+//                 {
+//                     "description": "为 gdb 启用整齐打印",
+//                     "text": "-enable-pretty-printing",
+//                     "ignoreFailures": true
+//                 }
+//             ]
+//         }
+//     ]
+// }
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+        },
+    ]
+}
